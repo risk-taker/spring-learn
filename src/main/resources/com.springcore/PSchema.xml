@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.example.springdemo.com.springcore.PSchema.Student" name="student1" p:studentId="2256" p:studentName="john doe" p:studentAddress="delhi" >
+<!--        method 1-->
+<!--        <property name="studentId">-->
+<!--            <value>2256</value>-->
+<!--        </property>-->
+<!--        <property name="studentName">-->
+<!--            <value>John doe</value>-->
+<!--        </property>-->
+<!--        <property name="studentAddress">-->
+<!--            <value>delhi</value>-->
+<!--        </property>-->
+<!--         method 2-->
+<!--        <property name="studentId" value="2256" />-->
+<!--        <property name="studentName" value="john doe" />-->
+<!--        <property name="studentAddress" value="delhi" />-->
+<!--            method 3 : direct add property using p schema -->
+    </bean>
+
+
+</beans>

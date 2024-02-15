@@ -1,0 +1,32 @@
+collection type:
+List
+    <bean>
+        <property name="">
+            <list>
+                <value>10</value>
+                <value>10</value>
+                <value>10</value>
+                <value>10</value>
+            </list>
+        </property>
+    </bean>
+Map
+    <bean>
+        <property name="">
+            <map>
+                <entry key="java" value="2 month" />
+                <entry key="python" value="1.5 month" />
+            </map>
+        </property>
+    </bean>
+Set
+    <bean>
+        <property name="">
+            <set>
+                <value>56</value>
+                <value>5566</value>
+                <value>5256</value>
+                <value>4756</value>
+            </set>
+        </property>
+    </bean>
